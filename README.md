@@ -11,8 +11,13 @@ Many educational institutions manage student leave requests through paper forms 
 ## Project Objectives
 
 🔸 Provide a centralized platform for managing student leave requests.
+
 🔸 Allow students to apply for and track leave status.
+
 🔸 Enable faculty members/admins to approve or reject leave applications.
+
 🔸 Maintain accurate leave records and history.
+
 🔸 Reduce paperwork and manual processing.
+
 🔸 Improve communication between students and faculty regarding leave requests.
