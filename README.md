@@ -1,18 +1,18 @@
-# Project Title :
+# Leave Management System
 
-Leave Management System
+## Project Overview
 
-# Project Overview :
+The Leave Management System is a web-based application designed to help students submit leave requests and enable faculty members or administrators to manage them efficiently. The system facilitates leave application, approval, rejection, and leave record management.
 
-The Leave Management System is a web-based application that helps organizations manage employee leave requests efficiently. Employees can apply for leave online, and administrators can review, approve, or reject requests. The system reduces paperwork and improves leave tracking.
+## Problem Statement
 
-# Problem Statement :
+Many educational institutions manage student leave requests through paper forms or manual records, which can lead to delays, misplaced applications, and difficulties in tracking leave history. A centralized leave management system is needed to efficiently manage and monitor student leave requests.
 
-In many organizations, leave management is handled manually, which can lead to:
+## Project Objectives
 
-1. Data redundancy
-2. Errors in leave records
-3. Delay in approval process
-4. Difficulty in tracking employee leave history
-
-This system automates the leave management process and provides a centralized platform for managing leave requests.
+🔸 Provide a centralized platform for managing student leave requests.
+🔸 Allow students to apply for and track leave status.
+🔸 Enable faculty members/admins to approve or reject leave applications.
+🔸 Maintain accurate leave records and history.
+🔸 Reduce paperwork and manual processing.
+🔸 Improve communication between students and faculty regarding leave requests.
