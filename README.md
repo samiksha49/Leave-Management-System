@@ -21,3 +21,31 @@ Many educational institutions manage student leave requests through paper forms 
 🔸 Reduce paperwork and manual processing.
 
 🔸 Improve communication between students and faculty regarding leave requests.
+
+
+## User Roles
+
+🔸 Principal
+🔸 HOD
+🔸 Staff
+🔸 Student
+
+## Module List
+
+### Dashboard
+🔸Provides an overview of leave requests, approvals, and system activities.
+
+### Leave Management
+🔸Allows users to apply for leave and track leave status.
+
+### User Management
+🔸Manages user accounts, roles, and access permissions.
+
+### Profile Management
+🔸Enables users to view and update their personal information.
+
+### Settings
+🔸Allows configuration of system preferences and management options.
+
+### Reports (Future Enhancement)
+🔸Generates reports and analytics related to leave records and user activities.
