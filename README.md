@@ -49,3 +49,7 @@ Many educational institutions manage student leave requests through paper forms 
 
 ### Reports (Future Enhancement)
 🔸Generates reports and analytics related to leave records and user activities.
+
+## Use Case Diagram
+
+![Use Case Diagram](file_000000003f3471f88b013a821fc2f169.png)
