@@ -56,3 +56,16 @@
 🔸The use case diagram below shows the major actors and functionalities of the Leave Management System.
 
 ![Use Case Diagram](file_000000003430722facbd7dd187ff2046.png)
+
+
+## Table List
+
+| Table Name | Purpose |
+|------------|---------|
+| Users | Stores login and user information for Student, Staff, HOD, and Principal |
+| Leave_Requests | Stores leave application details submitted by users |
+| Leave_Approvals | Tracks approval or rejection status at different levels |
+| Roles | Stores user role information and permissions |
+| Departments | Stores department details for users |
+| Notifications | Stores system notifications and leave status updates |
+
