@@ -69,3 +69,12 @@
 | Departments | Stores department details for users |
 | Notifications | Stores system notifications and leave status updates |
 
+# ER Diagram
+
+## Description
+
+This ER Diagram represents the database structure of the Leave Management System. It shows the relationship between Student, Staff, HOD, Principal, and Leave Request entities.
+
+## Diagram
+
+![ER Diagram](file_00000000d504720895087c8a6b959c78.png)
