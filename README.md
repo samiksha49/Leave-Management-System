@@ -73,7 +73,7 @@
 
 ## Description
 
-This ER Diagram represents the database structure of the Leave Management System. It shows the relationship between Student, Staff, HOD, Principal, and Leave Request entities.
+🔸This ER Diagram represents the database structure of the Leave Management System. It shows the relationship between Student, Staff, HOD, Principal, and Leave Request entities.
 
 ## Diagram
 
