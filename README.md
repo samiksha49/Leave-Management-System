@@ -78,6 +78,7 @@
 ## Diagram
 
 ![ER Diagram](file_00000000d504720895087c8a6b959c78.png)
+
 # SQL Schema
 
 ## Description
@@ -86,7 +87,7 @@
 
 ## Users Table
 
-
+```sql
 CREATE TABLE users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
@@ -94,11 +95,11 @@ CREATE TABLE users (
     password VARCHAR(100),
     role VARCHAR(20)
 );
-
+```
 
 ## Leave Requests Table
 
-
+```sql
 CREATE TABLE leave_requests (
     leave_id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
@@ -109,3 +110,4 @@ CREATE TABLE leave_requests (
     status VARCHAR(20),
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
+```
