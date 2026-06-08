@@ -78,3 +78,34 @@
 ## Diagram
 
 ![ER Diagram](file_00000000d504720895087c8a6b959c78.png)
+# SQL Schema
+
+## Description
+
+🔸This SQL schema defines the database structure for the Leave Management System. It includes tables for users and leave requests, along with the necessary fields required for managing the leave approval workflow.
+
+## Users Table
+
+
+CREATE TABLE users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100),
+    role VARCHAR(20)
+);
+
+
+## Leave Requests Table
+
+
+CREATE TABLE leave_requests (
+    leave_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    leave_type VARCHAR(50),
+    from_date DATE,
+    to_date DATE,
+    reason TEXT,
+    status VARCHAR(20),
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
