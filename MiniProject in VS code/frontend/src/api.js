@@ -1,4 +1,4 @@
-export const API = "http://127.0.0.1:8000";
+﻿export const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 export const ADVISOR_DATA = {
   "I Year A": { name: "Ms. Priya", email: "priya.advisor@gmail.com", password: "priya@123" },

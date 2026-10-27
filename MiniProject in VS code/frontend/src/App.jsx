@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+﻿import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
   LayoutDashboard,
   Send,
@@ -49,7 +49,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const ADVISOR_DATA = {
   "I Year A": { name: "Ms. Priya", email: "priya.advisor@gmail.com", password: "priya@123" },
@@ -659,12 +659,12 @@ function Login({ onLogin }) {
 
             {role === "Parent" && (
               <div className="role-helper-note">
-                💡 Tip: Enter child's register number (e.g. 24025), then click "Fill Demo Credentials".
+                ðŸ’¡ Tip: Enter child's register number (e.g. 24025), then click "Fill Demo Credentials".
               </div>
             )}
             {role === "Advisor" && (
               <div className="role-helper-note">
-                💡 Demo credentials automatically load for the selected class section.
+                ðŸ’¡ Demo credentials automatically load for the selected class section.
               </div>
             )}
           </div>
@@ -873,7 +873,7 @@ function MainLayout({ user, activePage, setActivePage, logout, theme, toggleThem
               <Search size={15} className="topbar-search-icon" />
               <input
                 type="text"
-                placeholder="Quick search... (⌘K)"
+                placeholder="Quick search... (âŒ˜K)"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="topbar-search-input"
@@ -1327,7 +1327,7 @@ function LeaveApplication({ user }) {
 
           {proof && (
             <div className="file-preview-card">
-              <span style={{ fontSize: 13, fontWeight: 600 }}>📄 {proof.name}</span>
+              <span style={{ fontSize: 13, fontWeight: 600 }}>ðŸ“„ {proof.name}</span>
               <button
                 type="button"
                 onClick={() => setProof(null)}
@@ -2175,7 +2175,7 @@ function AttendanceAnalyticsPage({ user }) {
               {simPct}%
             </strong>
             <span style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 6, display: "block" }}>
-              {simPct >= 75 ? "✅ Eligible for Semester Exams" : "⚠️ Hall Ticket Withheld Threshold"}
+              {simPct >= 75 ? "âœ… Eligible for Semester Exams" : "âš ï¸ Hall Ticket Withheld Threshold"}
             </span>
           </div>
         </div>
