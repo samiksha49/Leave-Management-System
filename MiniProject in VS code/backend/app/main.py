@@ -29,13 +29,13 @@ app = FastAPI(
     version="3.0.0",
     description="AI-Powered Student Leave, Attendance & Academic Monitoring System",
 )
-
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
+       allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "http://localhost:5174",
+        "https://leave-management-system-1-s8vz.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
